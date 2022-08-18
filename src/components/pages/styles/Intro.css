@@ -1,0 +1,135 @@
+.intro {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+}
+
+.intro-img {
+    background-image: url(/src/assets/about/me.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+}
+
+.intro-container {
+    position: absolute;
+    top: 270px;
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.intro-name {
+    font-size: 20px;
+}
+
+.intro-title {
+    font-size: 67px;
+    color:var(--primarycolor);
+    letter-spacing: 3px;
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+    font-family: var(--akira);
+}
+
+.intro-self {
+    font-size: 36px;
+    color: var(--black);
+    font-family: var(--akira);
+
+}
+
+.span-portfolio {
+    font-size: 50px;
+}
+
+.intro-span{
+    color: var(--primarycolor);
+}
+
+.intro-spe {
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 960px){
+    .intro {
+        flex-direction: column-reverse;
+        height: 700px;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .intro-img {
+        position: absolute;
+        top: 0;
+    }
+
+    .intro-container{
+        position: relative;
+        top: -600px;
+        left: 0;
+        align-items: center;
+    }
+
+    .intro-title {
+        color: var(--black);
+    }
+
+    .intro-spe {
+        color: var(--primarycolor);
+    }
+
+    .hidden-sm1 {
+        display: none;
+    }
+}
+
+@media (max-width: 525px) {
+    .intro-img {
+        width: 300px;
+    }
+
+    .intro-container {
+        width: 310px;
+        top: -645px;
+    }
+
+    .intro-title {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+
+    .intro-self {
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+
+    .intro-spe {
+        text-align: center;
+    }
+
+    .hidden-sm2 {
+        display: none;
+    }
+}

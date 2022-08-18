@@ -1,0 +1,236 @@
+.roadart-1 {
+    background-image: url(/src/assets/projects/roadart/img1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 700px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.client-roadart {
+    background-image: url(/src/assets/projects/roadart/logo_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 300px;
+    height: 150px;
+}
+
+.roadart-2 {
+    background-image: url(/src/assets/projects/roadart/mainpage.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.roadart-3 {
+    background-image: url(/src/assets/projects/roadart/storefront.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.roadart-4 {
+    background-image: url(/src/assets/projects/roadart/banner_mockup.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 1200px;
+    margin: 50px auto;
+}
+
+.roadart-5 {
+    background-image: url(/src/assets/projects/roadart/rideau.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.roadart-6 {
+    background-image: url(/src/assets/projects/roadart/drapeau.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+
+@media (max-width: 1300px) {
+    .roadart-2 {
+        width: 800px;
+        
+    }
+    .roadart-3 {
+        width: 800px;
+        height: 800px;
+        
+    }
+    .roadart-4 {
+        width: 800px;
+    }
+    .roadart-5 {
+        width: 800px;
+    }
+    .roadart-6 {
+        width: 800px;
+    }
+    .roadart-7 {
+        width: 800px;
+    }
+    .roadart-8 {
+        width: 800px;
+    }
+    .roadart-9 {
+        width: 800px;
+    }
+}
+
+@media (max-width: 910px) {
+    .roadart-1{
+        width: 600px;
+        height: 400px;
+    }
+    .roadart-2 {
+        width: 600px;
+        height: 400px;
+        
+    }
+    .roadart-3 {
+        width: 600px;
+        height: 600px;
+        
+    }
+    .roadart-4 {
+        width: 600px;
+        height: 400px;
+        }
+    .roadart-5 {
+        width: 600px;
+        
+    }
+    .roadart-6 {
+        width: 600px;
+        height: 150px;
+        
+    }
+    .roadart-7 {
+        width: 600px;
+        height: 400px;
+        
+    }
+    .roadart-8 {
+        width: 600px;
+        height: 250px;
+    }
+    .roadart-9 {
+        width: 600px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    .roadart-1 {
+        width: 400px;
+        height: 300px;
+    }
+    .roadart-2 {
+        width: 400px;
+        height: 300px;
+        
+    }
+    .roadart-3 {
+        width: 400px;
+        height: 400px;
+        
+    }
+    .roadart-4 {
+        width: 400px;
+        height: 300px;
+        }
+    .roadart-5 {
+        width: 400px;
+        height: 200px;
+        
+    }
+    .roadart-6 {
+        width: 400px;
+        height: 150px;
+        
+    }
+    .roadart-7 {
+        width: 400px;
+        height: 300px;
+        
+    }
+    .roadart-8 {
+        width: 400px;
+        height: 250px;
+    }
+    .roadart-9 {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .roadart-1 {
+        width: 300px;
+        height: 200px;
+    }
+    .roadart-2 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .roadart-3 {
+        width: 200px;
+        height: 200px;
+        
+    }
+    .roadart-4 {
+        width: 200px;
+        }
+    .roadart-5 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .roadart-6 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .roadart-7 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .roadart-8 {
+        width: 200px;
+        height: 150px;
+    }
+    .roadart-9 {
+        width: 200px;
+        height: 150px;
+    }
+}

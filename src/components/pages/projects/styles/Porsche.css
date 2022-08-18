@@ -1,0 +1,270 @@
+.porsche-1 {
+    background-image: url(/src/assets/projects/porsche/img1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 700px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.client-porsche {
+    background-image: url(/src/assets/projects/porsche/logo_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 300px;
+    height: 150px;
+}
+
+.porsche-2 {
+    background-image: url(/src/assets/projects/porsche/mainpage.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.porsche-3 {
+    background-image: url(/src/assets/projects/porsche/onboarding.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 1120px;
+    margin: 0 auto;
+}
+
+.porsche-4 {
+    background-image: url(/src/assets/projects/porsche/userflow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 660px;
+    margin: 0 auto;
+}
+
+.porsche-5 {
+    background-image: url(/src/assets/projects/porsche/porsche_logo_2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.porsche-6 {
+    background-image: url(/src/assets/projects/porsche/porsche_picto.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.porsche-7 {
+    background-image: url(/src/assets/projects/porsche/porsche_CTA.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.porsche-8 {
+    background-image: url(/src/assets/projects/porsche/porsche_typo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.porsche-9 {
+    background-image: url(/src/assets/projects/porsche/porsche_colors.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+    .porsche-2 {
+        width: 800px;
+        
+    }
+    .porsche-3 {
+        width: 800px;
+        height: 800px;
+        
+    }
+    .porsche-4 {
+        width: 800px;
+    }
+    .porsche-5 {
+        width: 800px;
+    }
+    .porsche-6 {
+        width: 800px;
+    }
+    .porsche-7 {
+        width: 800px;
+    }
+    .porsche-8 {
+        width: 800px;
+    }
+    .porsche-9 {
+        width: 800px;
+    }
+}
+
+@media (max-width: 910px) {
+    .porsche-1{
+        width: 600px;
+        height: 400px;
+    }
+    .porsche-2 {
+        width: 600px;
+        height: 400px;
+        
+    }
+    .porsche-3 {
+        width: 600px;
+        height: 600px;
+        
+    }
+    .porsche-4 {
+        width: 600px;
+        height: 400px;
+        }
+    .porsche-5 {
+        width: 600px;
+        
+    }
+    .porsche-6 {
+        width: 600px;
+        height: 150px;
+        
+    }
+    .porsche-7 {
+        width: 600px;
+        height: 400px;
+        
+    }
+    .porsche-8 {
+        width: 600px;
+        height: 250px;
+    }
+    .porsche-9 {
+        width: 600px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    .porsche-1 {
+        width: 400px;
+        height: 300px;
+    }
+    .porsche-2 {
+        width: 400px;
+        height: 300px;
+        
+    }
+    .porsche-3 {
+        width: 400px;
+        height: 400px;
+        
+    }
+    .porsche-4 {
+        width: 400px;
+        height: 300px;
+        }
+    .porsche-5 {
+        width: 400px;
+        height: 200px;
+        
+    }
+    .porsche-6 {
+        width: 400px;
+        height: 150px;
+        
+    }
+    .porsche-7 {
+        width: 400px;
+        height: 300px;
+        
+    }
+    .porsche-8 {
+        width: 400px;
+        height: 250px;
+    }
+    .porsche-9 {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .porsche-1 {
+        width: 300px;
+        height: 200px;
+    }
+    .porsche-2 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .porsche-3 {
+        width: 200px;
+        height: 200px;
+        
+    }
+    .porsche-4 {
+        width: 200px;
+        height: 100px;
+        }
+    .porsche-5 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .porsche-6 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .porsche-7 {
+        width: 200px;
+        height: 100px;
+        
+    }
+    .porsche-8 {
+        width: 200px;
+        height: 150px;
+    }
+    .porsche-9 {
+        width: 200px;
+        height: 150px;
+    }
+}

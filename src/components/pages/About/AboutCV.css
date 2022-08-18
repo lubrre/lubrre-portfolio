@@ -1,0 +1,246 @@
+/* container myself */
+
+.about-me {
+    font-family: var(--akira);
+    font-style: italic;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.me {
+    font-family: var(--akira);
+    font-size: 45px;
+    font-style: italic;
+}
+
+.about-container-myself {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.myself-text {
+    max-width: 600px;
+    font-family: var(--akira);
+    font-style: italic;
+    font-size: 25px;
+    text-align: right;
+}
+
+.about-container-myself-detail {
+    max-width: 600px;
+}
+
+.myself-text-detail {
+    font-family: var(--helvmed);
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+/* container education */
+
+.about-container-education {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.education-title {
+    color: var(--primarycolor);
+    font-size: 18px;
+    font-family: var(--akira);
+    max-width: 600px;
+}
+
+.education-text {
+    max-width: 600px;
+
+    font-family: var(--helvmed);
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container-1 {
+    border: 2px solid var(--primarycolor);
+    width: 640px;
+    height: 602px;
+    background-color: var(--primarycolor);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1-detail {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.detail-1-title {
+    font-family: var(--akira);
+    font-size: 40px;
+}
+
+.detail-1-text {
+    font-family: var(--helvmed);
+    font-size: 15px;
+}
+
+.container-1-degree {
+    background-image: url(/src/assets/about/diplome.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 280px;
+    margin-top: 50px;
+}
+
+.container-education-multiple {
+    justify-content: space-around;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 640px;
+}
+
+.education-multiple {
+    border: 2px solid var(--primarycolor);
+    width: 280px;
+    height: 280px;
+    color: var(--primarycolor);
+    position: relative;
+}
+
+.education-multiple:hover {
+    border: 2px solid var(--primarycolor);
+    background-color: var(--primarycolor);
+    color: white;
+    transition: ease-in .3s;
+}
+
+.multiple-container {
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.multiple-title {
+    font-family: var(--akira);
+    font-size: 25px;
+}
+
+.multiple-text {
+    font-family: var(--helvmed);
+    font-size: 15px;
+    position: absolute;
+    bottom: 25px;
+}
+
+
+/* responsive */
+
+@media (max-width: 1300px) {
+    .myself-text {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .myself-text {
+        max-width: 375px;
+    }
+
+    .myself-text-detail {
+        max-width: 500px;
+    }
+
+    .skill-text {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-me {
+        text-align: center;
+    }
+
+    .about-container-myself {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .myself-text {
+        max-width: 600px;
+        text-align: left;
+    }
+
+    .myself-text-detail {
+        max-width: 900px;
+    }
+
+    .about-container-education {
+        align-items: center;
+    }
+
+    .education-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 670px) {
+    .container-1 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .container-1-detail {
+        width: 350px;
+    }
+
+    .container-1-degree {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container-1 {
+        width: 280px;
+        height: 400px;
+    }
+
+    .container-1-detail {
+        width: 250px;
+    }
+
+    .detail-1-title {
+        font-size: 30px;
+    }
+
+    .detail-1-text {
+        font-size: 12px;
+    }
+
+    .container-1-degree {
+        margin: 20px;
+    }
+}

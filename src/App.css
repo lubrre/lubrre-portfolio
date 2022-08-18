@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+:root {
+  --white : #fff;
+  --black : #000;
+  --primarycolor : #357a5e;
+  --primaryfont : 'monument';
+  --helvmed: 'helvetica-nowdisplay-med';
+  --helvmedita : 'helvetica-nowdisplay-medita';
+  --akira: 'akira';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+@font-face {
+  font-family: 'monument';
+  src: url('/src/fonts/MonumentExtended-Regular.otf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'druk';
+  src: url('/src/fonts/DrukWideBold.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+@font-face {
+  font-family: 'neue-montreal-med';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-nowdisplay-med';
+  src: url('/src/fonts/helvetica-new-display/HelveticaNowDisplay-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'helvetica-nowdisplay-medita';
+  src: url('/src/fonts/helvetica-new-display/HelveticaNowDisplay-MedIta.ttf');
+}
+
+@font-face {
+  font-family: 'akira';
+  src: url('/src/fonts/AkiraExpandedDemo.otf');
+}
+
+/* @font-face {
+  font-family: 'neue-montreal-reg';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-Book.otf');
+}
+
+@font-face {
+  font-family: 'neue-montreal-med';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'neue-montreal-med-ita';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-Italic.otf');
+}
+
+@font-face {
+  font-family: 'neue-montreal-bold-ita';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-SemiBolditalic.otf');
+}
+
+@font-face {
+  font-family: 'neue-montreal-bold';
+  src: url('/src/fonts/neue-montreal/PPNeueMontreal-Bold.otf');
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'monument';
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid black;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 3rem;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.app {
+  text-align: center;
 }

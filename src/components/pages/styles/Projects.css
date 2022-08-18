@@ -1,0 +1,29 @@
+.projects {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* img */
+
+.img-roadart {
+    background-image: url(/src/assets/projects/roadart.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 500px;
+    height: 280px;
+
+}
+
+.img-weeklydesign {
+    background-image: url(/src/assets/projects/weeklydesign.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 500px;
+    height: 280px;
+
+}

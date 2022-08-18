@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* fonts */
+
+@font-face {
+	font-family: 'monument';
+	src: url('/src/fonts/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+	font-family: 'druk';
+	src: url('/src/fonts/DrukWideBold.ttf');
+}
